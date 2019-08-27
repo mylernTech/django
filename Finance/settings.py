@@ -55,7 +55,7 @@ ROOT_URLCONF = 'Finance.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'bot/Templates')],
+        'DIRS': [os.path.join(BASE_DIR, 'bot/templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -77,8 +77,11 @@ WSGI_APPLICATION = 'Finance.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
+        'HOST': 'localhost',
         'NAME': 'bank',
-        'password': ''
+        'USER': 'root',
+        'password': '',
+
     }
 }
 
