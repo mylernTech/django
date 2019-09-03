@@ -1,0 +1,84 @@
+<html>
+<head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- bootstrap css import -->
+    <link rel="stylesheet" href="../../static/css/bootstrap.min.css" >
+</head>
+<style>
+    .container-fluid {
+        position: relative;
+        top: 50px;
+        width: 400px;
+        height: 400px;
+        
+         
+        
+    }
+    .container-header{
+        text-align: center;
+        color: skyblue;
+        position: relative;
+        padding: 10px;
+        left: 0;
+        width: 100%;
+        height: 50px;
+        
+
+    }
+    .footer {
+        position: fixed;
+        bottom: 0;
+        text-align: center;
+        background-color: black;
+        color: white;
+        width: 100%;
+    }
+
+</style>
+<body>
+    
+    <div class="header">
+        <nav class="navbar navbar-expand-lg bg-dark ">
+            <ul class = "navbar-nav ">
+                
+                <li class="nav-item">
+                    <a href="" class="nav-link"> Home</a>
+                </li>
+                <li class="nav-item active">
+                    <a href="" class="nav-link"> log_in</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link"> sign-up </a>
+                </li>
+
+            </ul>
+        </nav>
+    </div>
+    <div class= "container-fluid  card  ">
+    <form action="/sign-up/" method="post">
+        <div class="container-header">
+            <h2><strong> SIGN-IN HERE </strong></h2>
+        </div>       
+        <div class="form-group p-4">
+            <label for="username"><b>username:</b></label>
+            <input placeholder="USERNAME" class= "form-control">
+        </div>
+        
+        <div class="form-group p-4">
+            <label for="password"><b>Password:</b></label>
+            <input placeholder="PASSWORD" class="form-control">
+        </div>
+        <div class="float-right">
+            <button class="btn btn-success ">Submit</button>
+        </div>
+    </form>
+    </div>
+    
+    <div class="footer">
+        <p> Property Of MyLErN Tech </p>
+    </div>
+</body>
+</html>
