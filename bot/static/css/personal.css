@@ -1,0 +1,22 @@
+.rgba-gradient {
+  background: -moz-linear-gradient(45deg, rgba(213, 15, 61, 0.6), rgba(13, 17, 198, 0.69) 100%);
+  background: -webkit-linear-gradient(45deg, rgba(213, 15, 61, 0.6), rgba(13, 17, 198, 0.69) 100%);
+  background: linear-gradient(to 45deg, rgba(213, 15, 61, 0.6), rgba(13, 17, 198, 0.69) 100%);
+}
+
+header{
+	background-image: linear-gradient(to left, purple, black)
+}
+
+#intro{
+	height: 450px;
+	padding:50px;
+	background-color:;
+	background-image:linear-gradient(to left, purple, black);
+	text-align: center;
+	color: white;
+	padding: 250px; 
+}
+footer{
+	background-image: linear-gradient(to left, purple, black)
+}
